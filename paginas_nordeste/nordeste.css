@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: sans-serif;
+}
+
+/*-------------------------MENU---------------------------- */
+
+#nav-menu {
+    background-color: rgb(255, 172, 84);
+    display: flex;
+}
+
+
+/*-------------------------PÁGINA-NORDESTE---------------------------- */

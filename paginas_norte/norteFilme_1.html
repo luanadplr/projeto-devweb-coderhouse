@@ -5,32 +5,42 @@
     <link rel="shortcut icon" href="../imagens/imagens norte/favicon_norte.png">
     <meta name="keywords" content="filmes brasileiros, filmes do brasil, cinema brasileiro, cinema do brasil, cinema, fimes, brasil, sudeste, norte, centro-oeste, centro oeste, sul, clássicos do cinema brasil, curadoria filmes, curadoria, clássicos cinema brasil, clássicos cinema brasileiro, aqui_no, aqui no, aquino, akino, aki no, aki_no">
     <meta name="description" content="Página do filme Tainá - Uma Aventura na Amazônia, filme da região Norte">
-    <link rel="stylesheet" href="../paginas_norte/norte.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../paginas_norte/norteFilme.css">
     <title>Tainá - Uma Aventura na Amazônia</title>
 </head>
 <body>
-    <header class="norte--head">
-        <nav class="norte--menu">
+    <div id="div--norte">
+        <nav id="menu--norte">
             <ul class="--menu">
-                <li class="--menu_li titulo"><a href="../index.html" class="--menu_a">Aqui_no</a></li>
-                <li class="--menu_li norte"><a href="../paginas_norte/norte.html" class="--menu_a">_norte</a></li>
-                <li class="--menu_li"><a href="../paginas_nordeste/nordeste.html" class="--menu_a">_nordeste</a></li>
-                <li class="--menu_li"><a href="../paginas_centroOeste/centroOeste.html" class="--menu_a">_centro-oeste</a></li>
-                <li class="--menu_li"><a href="../paginas__sudeste/sudeste.html" class="--menu_a">_sudeste</a></li>
-                <li class="--menu_li"><a href="../paginas__sul/sul.html" class="--menu_a">_sul</a></li>
-                <li class="--menu_li"><a href="../index.html" class="--menu_a">_sobre_o_projeto</a></li>
+                <li id="titulo"><a href="../index.html" class="a--menu">Aqui_no</a></li>
+                <li class="menu--li norte"><a href="../paginas_norte/norte.html" class="a--menu">_norte</a></li>
+                <li class="menu--li"><a href="../paginas_nordeste/nordeste.html" class="a--menu">_nordeste</a></li>
+                <li class="menu--li"><a href="../paginas_centroOeste/centroOeste.html" class="a--menu">_centro-oeste</a>
+                </li>
+                <li class="menu--li"><a href="../paginas__sudeste/sudeste.html" class="a--menu">_sudeste</a></li>
+                <li class="menu--li"><a href="../paginas__sul/sul.html" class="a--menu">_sul</a></li>
+                <li id="sobreProjeto"><a href="../pagina__sobre/sobreOProjeto.html" class="a--menu">_sobre_o_projeto</a>
+                </li>
             </ul>
         </nav>
-        <button type="button" class="--norte-head-btn_voltar"><a href="../paginas_norte/norte.html" class="btn--voltar"><img src="../imagens/icone_voltar.png" alt="ícone para voltar">voltar</a></button>
-        <p class="head--txt_norte">_norte</p>
-        <h1 class="head--titulo">Tainá - Uma Aventura na Amazônia</h1>
-        <p class="head-txt_premios">Melhor Filme no Chicago International Children's Film Festival</p>
-        <ul class="head--filme-lista">
-            <li class="--filme-li">2000</li>
-            <li class="--filme-li">Infanto-juvenil</li>
-            <li class="--filme-li">91 minutos</li>
-        </ul>
-        <img src="../imagens/imagens norte/filme--taina.jpg" class="foto--filme">
+        <header id="header--norte">
+            <div div="div--titulo">
+                <button type="button" id="button-voltar"><a href="../index.html" class="btn--voltar"><img src="../imagens/icone_voltar.png" alt="ícone para voltar">voltar</a></button>
+                <p class="head--txt">_norte</p>
+                <h1 class="head--titulo">Tainá - Uma Aventura na Amazônia</h1>
+                <p class="head-txt_premios">Melhor Filme no Chicago International Children's Film Festival</p>
+                <ul class="head--filme-lista">
+                    <li class="--filme-li">2000</li>
+                    <li class="--filme-li">Infanto-juvenil</li>
+                    <li class="--filme-li">91 minutos</li>
+                </ul>
+            </div>
+            <div id="div-imagem">
+                 <img src="../imagens/imagens norte/filme--taina.jpg" class="foto--filme">
+            </div>
     </header>
     <main class="norte--filmes">
         <div class="norte--main">
@@ -45,8 +55,9 @@
             <iframe width="560" height="315" src="https://www.youtube.com/embed/a7K0n15Wwek" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
         </div>
     </main>
-    <footer class="norte--footer">
-        <p class="titulo">Aqui_no</p>
+    <footer id="footer--norte">
+        <p class="footer-creditos">Aqui_no 2023®</p>
     </footer>
+    </div>
 </body>
 </html>

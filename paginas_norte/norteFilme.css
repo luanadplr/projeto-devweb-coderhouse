@@ -1,0 +1,46 @@
+
+*{padding:0; margin:0;
+font-family: 'Inter', sans-serif;}
+
+#div--norte{display: flex;
+    flex-direction: column;}
+    
+/*    MENU    */
+    
+#menu--norte{background-color: #24F27B;}
+.--menu{display: flex;
+list-style: none;
+flex-flow: row wrap;
+padding: 30px;
+justify-content: space-between;}
+    
+#titulo{margin-right: auto;
+font-weight: bold;}
+    
+#sobreProjeto{margin-left: auto;}
+    
+.menu--li{margin: 0 20px 0 20px;}
+.a--menu{color: black;
+text-decoration: none;}
+.menu--li:nth-child(2){font-weight: bold;}
+.a--menu:hover{opacity: 60%;}
+
+/*    HEADER    */
+
+#header--norte{display:flex;
+flex-flow: row wrap;
+background-color: #24F27B;
+justify-content: space-between;
+padding: 50px;
+align-items: center;}
+    
+#div--titulo{margin: auto;}
+#div--img-norte{margin: auto;}
+    
+.head--titulo{margin-bottom: 20px;
+margin-top: 20px; font-size:60px;}
+
+/*  FOOTER   */
+
+#footer--norte{padding: 20px;
+    background-color: #F2F2F2; color: #3d3d3d;}

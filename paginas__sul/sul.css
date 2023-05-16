@@ -7,7 +7,7 @@
     
     /*    MENU    */
     
-    #menu-sul{background-color: #8CDDFF;}
+    #menu-filmes-sul{background-color: #8CDDFF;}
     .--menu{display: flex;
     list-style: none;
     flex-flow: row wrap;
@@ -100,7 +100,7 @@
     .h4-artigoLegenda{font-size: 14px;
     font-weight: bold; font-style: italic;
     margin-top: 20px;}
-    .div-artigoTexto{margin-top: 70px;
+    .p-artigoTexto{margin-top: 70px;
     font-size: 14px;}
     
     /*  FOOTER   */

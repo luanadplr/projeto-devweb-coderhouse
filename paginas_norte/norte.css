@@ -35,6 +35,13 @@ justify-content: space-between;
 padding: 50px;
 align-items: center;}
 
+.aVoltar{text-decoration:none;
+color: black;}
+.imgLink{width:8px;
+padding-right: 10px;}
+    
+.aVoltar:hover{text-decoration: underline;}
+
 #div--titulo{margin: auto;}
 #div--img-norte{margin: auto;}
 

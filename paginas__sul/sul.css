@@ -68,6 +68,8 @@
     
     /*    ARTICLE      */
     
+   
+   
     #article-sul{display: flex;
     flex-flow: row wrap;}
     
@@ -83,6 +85,8 @@
     
     .div-artigoAutor{width:auto;
     margin-right: 30px;}
+    .img-artigoAutor{ width: 50px;
+    }
     .div-artigoTexto{width: 447px;}
     
     .div-artigoAutor{font-size: 12px;}

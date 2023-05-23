@@ -3,36 +3,46 @@
     padding: 0;
     text-decoration: none;
     list-style-type: none;
-    font-family: sans-serif;
+    font-family: "Inter", sans-serif;
 }
 
 /*-------------------------MENU---------------------------- */
 
 #nav-menu {
     background-color: rgb(255, 172, 84);
-    padding: 30px;
+}
+
+.nordeste {
+    font-weight: bold;
+}
+
+#titulo {
+    margin-right: auto;
+    font-weight: bold;
 }
 
 #ul-menu {
     display: flex;
-    justify-content: space-around;
+    list-style: none;
+    flex-flow: row wrap;
+    padding: 30px;
+    justify-content: space-between;
 }
 
 .li-menu {
-    margin: 20px 0px 20px 0px;
+    margin: 0px 20px 0px 20px;
 }
 
 .li-menu:hover {
-    text-decoration: underline;
+    opacity: 60%;
 }
 
 .a-menu:visited {
     color: black;
 }
 
-.bold-item {
-    color: black;
-    font-weight: bold;
+#sobreProjeto {
+    margin-left: auto;
 }
 
 /*-------------------------HEADER-NORDESTE---------------------------- */

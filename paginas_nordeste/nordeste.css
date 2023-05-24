@@ -48,12 +48,12 @@
 /*-------------------------HEADER-NORDESTE---------------------------- */
 
 #header-nordeste {
-    height: 300px;
     background-color: rgb(255, 172, 84);
     display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
+    padding: 50px;
     align-items: center;
-    margin-bottom: 20px;
-    padding: 0px 50px 0px 50px;
 }
 
 #nordeste {
@@ -70,7 +70,12 @@
     border-radius: 30px;
     background-color: rgb(255, 172, 84);
     display: flex;
-    align-items: center;
+    align-content: center;
+    justify-content: space-around;
+}
+
+#icon-voltar {
+    padding: 7px 7px 0px 0px;
 }
 
 #div-img-nordeste {
@@ -78,7 +83,7 @@
 }
 
 #img-nordeste {
-    height: 150px;
+    height: 250px;
     display: flex;
     justify-content: center;
 }

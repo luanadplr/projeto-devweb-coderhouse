@@ -11,41 +11,45 @@
         content="Saiba mais sobre o filme 'O Auto da Compadecida' na Aqui_no. Uma curadoria de filmes brasileiros que os categoriza de acordo com a região do país em que foram produzidos, concebidos, realizados. Um projeto realizado por um grupo de estudantes da Coderhouse para conhecer, assistir, deleitar de filmes feitos aqui no norte, nordeste, centro-oeste, sudeste e sul!">
     <link rel="shortcut icon" href="../../imagens/imagens nordeste/favicon_nordeste.png">
     <title>O Auto da Compadecida</title>
+    <link rel="stylesheet" href="filmesNordeste.css">
 </head>
 
 <body>
-    <nav>
-        <ul>
-            <li><a href="../../index.html"><strong>Aqui_no</strong></a></li>
-            <li><a href="../../paginas_norte/norte.html">_norte</a></li>
-            <li><a href="../../paginas_nordeste/nordeste.html">_nordeste</a></li>
-            <li><a href="../../paginas_centroOeste/centroOeste.html">_centro-oeste</a></li>
-            <li><a href="../../paginas__sudeste/sudeste.html">_sudeste</a></li>
-            <li><a href="../../paginas__sul/sul.html">_sul</a></li>
-            <li><a href="../../pagina__sobre/sobreOProjeto.html">_sobre_o_projeto</a></li>
-        </ul>
-    </nav>
+    <div id="div-nordeste">
+        <nav class="menu-nordeste">
+            <ul class="menu">
+                <li id="titulo"><a class="a-menu" href="../../index.html"><strong>Aqui_no</strong></a></li>
+                <li class="menu-li"><a class="a-menu" href="../../paginas_norte/norte.html">_norte</a></li>
+                <li class="menu-li"><a class="a-menu" href="../../paginas_nordeste/nordeste.html">_nordeste</a>
+                </li>
+                <li class="menu-li"><a class="a-menu"
+                        href="../../paginas_centroOeste/centroOeste.html">_centro-oeste</a></li>
+                <li class="menu-li"><a class="a-menu" href="../../paginas__sudeste/sudeste.html">_sudeste</a></li>
+                <li class="menu-li"><a class="a-menu" href="../../paginas__sul/sul.html">_sul</a></li>
+                <li class="sobre-projeto"><a class="a-menu"
+                        href="../../pagina__sobre/sobreOProjeto.html">_sobre_o_projeto</a></li>
+            </ul>
+        </nav>
 
-    <header>
-        <a href="../../paginas_nordeste/nordeste.html"><img src="../../imagens/icone_voltar.png"
-                alt="ícone para voltar">voltar</a>
-        <h2>_nordeste</h2>
-        <h1>O Auto da Compadecida</h1>
-        <h4>Eleito pela Abraccine um dos cem melhores filmes brasileiros de todos os tempos</h4>
-        <table>
-            <th></th>
-            <th></th>
-            <th></th>
-            <tr>
-                <td>2000</td>
-                <td>Drama, Suspense</td>
-                <td>95 minutos</td>
-            </tr>
-        </table>
-        <img src="../../imagens/imagens nordeste/O Auto da Compadecida.jpg" alt="foto O Auto da Compadecida"
-            height="720">
-    </header>
-
+        <header id="header-nordeste">
+            <div class="div-titulo">
+                <a class="aVoltar" href="../../paginas_nordeste/nordeste.html"><img class="imgLink"
+                        src="../../imagens/icone_voltar.png" alt="ícone para voltar">voltar</a>
+                <p class="pNordeste">_nordeste</p>
+                <h1 class="h1Titulo">O Auto da Compadecida</h1>
+                <p class="pPremios">Eleito pela Abraccine um dos cem melhores filmes brasileiros de todos os tempos</p>
+                <ul class="ul-Filme">
+                    <li class="li-Filme">2000</li>
+                    <li class="li-Filme">Comédia</li>
+                    <li class="li-Filme">95 minutos</li>
+                </ul>
+            </div>
+            <div class="div-imgFilme">
+                <img class="imgFilme" src="../../imagens/imagens nordeste/O Auto da Compadecida.jpg"
+                    alt="foto O Auto da Compadecida">
+            </div>
+        </header>
+    </div>
     <section>
         <div>
             As aventuras dos nordestinos João Grilo (Matheus Natchergaele), um sertanejo pobre e mentiroso, e Chicó

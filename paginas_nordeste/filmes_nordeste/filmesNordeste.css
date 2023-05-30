@@ -129,7 +129,7 @@ iframe {
 
 /*---------------------------------MAIN---------------------------------*/
 
-.div-filmeTexto {
+.section-filmeTexto {
     width: 40%;
     margin-left: 150px;
     margin-top: 50px;
@@ -176,7 +176,7 @@ hr {
 
 /*---------------------------------FOOTER---------------------------------*/
 
-#footer-nordeste {
+#footerNordeste {
     padding: 20px;
     background-color: #F2F2F2;
     color: #3d3d3d;

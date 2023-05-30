@@ -1,27 +1,21 @@
 * {
-    margin: 0;
     padding: 0;
-    text-decoration: none;
-    list-style-type: none;
-    font-family: "Inter", sans-serif;
+    margin: 0;
+    font-family: 'Inter', sans-serif;
 }
 
-/*-------------------------MENU---------------------------- */
+/*--------------------------------------------MENU--------------------------------------------*/
 
-#nav-menu {
+#div-nordeste {
+    display: flex;
+    flex-direction: column;
+}
+
+#menu-nordeste {
     background-color: rgb(255, 172, 84);
 }
 
-.nordeste {
-    font-weight: bold;
-}
-
-#titulo {
-    margin-right: auto;
-    font-weight: bold;
-}
-
-#ul-menu {
+#menu {
     display: flex;
     list-style: none;
     flex-flow: row wrap;
@@ -29,63 +23,168 @@
     justify-content: space-between;
 }
 
-.li-menu {
-    margin: 0px 20px 0px 20px;
-}
-
-.li-menu:hover {
-    opacity: 60%;
-}
-
-.a-menu:visited {
-    color: black;
+#titulo {
+    margin-right: auto;
+    font-weight: bold;
 }
 
 #sobreProjeto {
     margin-left: auto;
 }
 
-/*-------------------------HEADER-NORDESTE---------------------------- */
+.menu-li {
+    margin: 0 20px 0 20px;
+}
+
+.a-menu {
+    color: black;
+    text-decoration: none;
+}
+
+.menu-li:nth-child(3) {
+    font-weight: bold;
+}
+
+.a-menu:hover {
+    opacity: 60%;
+}
+
+/*--------------------------------------------HEADER--------------------------------------------*/
 
 #header-nordeste {
-    background-color: rgb(255, 172, 84);
     display: flex;
     flex-flow: row wrap;
+    background-color: rgb(255, 172, 84);
     justify-content: space-between;
     padding: 50px;
     align-items: center;
 }
 
-#nordeste {
+.a-voltar {
+    text-decoration: none;
+    color: black;
+}
+
+.imgLink {
+    width: 8px;
+    padding-right: 10px;
+}
+
+.a-voltar:hover {
+    text-decoration: underline;
+}
+
+#div-nordeste {
+    margin: auto;
+}
+
+.div-img-nordeste {
+    margin: auto;
+}
+
+.head-titulo {
+    margin-bottom: 20px;
+    margin-top: 20px;
+    font-size: 60px;
+}
+
+/*--------------------------------------------MAIN--------------------------------------------*/
+
+#main-nordeste {
     display: flex;
-    flex-flow: column wrap;
-    justify-content: space-around;
-
-}
-
-#voltar-button {
-    width: 100px;
-    height: 30px;
-    border: 1px solid black;
-    border-radius: 30px;
-    background-color: rgb(255, 172, 84);
-    display: flex;
-    align-content: center;
-    justify-content: space-around;
-}
-
-#icon-voltar {
-    padding: 7px 7px 0px 0px;
-}
-
-#div-img-nordeste {
-    margin-left: 50px;
-}
-
-#img-nordeste {
-    height: 250px;
-    display: flex;
+    flex-flow: row wrap;
+    padding: 50px;
     justify-content: center;
 }
 
-/*-------------------------FILMES-NORDESTE---------------------------- */
+/*--------------------------------------------TABELA--------------------------------------------*/
+
+td {
+    padding: 30px;
+}
+
+.tbl-tituloFilme {
+    font-weight: bold;
+}
+
+.tbl-link {
+    text-decoration: none;
+    color: black;
+}
+
+.tbl-link:hover {
+    border-bottom: 2px solid black;
+}
+
+/*--------------------------------------------HR--------------------------------------------*/
+
+#hr {
+    border-top: 1px solid rgba(0, 0, 0, 0.166);
+    margin-top: 70px;
+    padding-left: 600px;
+}
+
+/*--------------------------------------------ARTICLE--------------------------------------------*/
+
+#article-artigo {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.p-artigoTitulo {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 15px;
+    margin-top: 20px;
+    margin-bottom: 30px;
+    letter-spacing: 2px;
+}
+
+#div-artigo {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.div-artigoAutor {
+    width: auto;
+    margin-right: 30px;
+}
+
+.div-artigoTexto {
+    width: 447px;
+}
+
+.p-artigoAutor {
+    font-size: 12px;
+}
+
+.h1-artigoTitulo {
+
+    text-decoration-line: underline;
+    text-decoration-thickness: 10px;
+    text-decoration-color: rgb(255, 172, 84);
+    font-size: 30px;
+}
+
+.h4-artigoLegenda {
+    font-size: 14px;
+    font-weight: bold;
+    font-style: italic;
+    margin-top: 20px;
+}
+
+.p-artigoTexto {
+    margin-top: 70px;
+    font-size: 14px;
+}
+
+/*--------------------------------------------FOOTER--------------------------------------------*/
+
+#footer-nordeste {
+    padding: 20px;
+    background-color: #F2F2F2;
+    color: #3d3d3d;
+}

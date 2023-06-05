@@ -20,7 +20,7 @@ font-weight: bold;}
 .a--menu{color: black;
 text-decoration: none;}
 #sobreProjeto{font-weight: bold;}
-.a--menu:hover{opacity: 60%;}
+.a--menu:hover{text-decoration:underline;}
 
 /*    HEADER    */
 

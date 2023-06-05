@@ -74,14 +74,12 @@
     display: inline-block;
     margin-top: 15px;
     font-size: 14px;
-}
-
-.buttonHeader:visited {
-    color: black;
+    transition: all 1s;
 }
 
 .buttonHeader:hover {
     background-color: rgba(0, 0, 0, 0.223);
+    padding-left: 50px; padding-right: 50px;
 }
 
 /*MAPA*/

@@ -4,36 +4,72 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
     <meta name="keywords" content="filmes sudeste, filmes do sudeste, filmes sudeste brasil, filmes do sudeste do brasil, filmes brasileiros, filmes do brasil, cinema brasileiro, cinema do brasil, cinema, fimes, brasil, sudeste, produção sudeste, produção cinematográfica sudeste, produção cinema brasil, produção cinema sudeste, direção cinema, direção cinematográfica, direcao cinematografica, cinema indígena, cinema indígena brasileiro, cinema indígena brasil, cinema indígena do sudeste, cinema indígena sudeste brasil, diretor cinema carioca, diretor cinema rio de janeiro, direção cinema carioca, direção cinema rio de janeiro, cinema novo, cinema novo carioca, seleção de filmes do cinema novo carioca, clássicos do cinema brasil, clássicos, clássicos cinema, clássicos cinema brasil, clássicos cinema brasileiro, filmes clássicos do brasil, filmes clássicos brasil, filmes clássicos brasileiros, filmes clássicos do sudeste do brasil, filmes clássicos do sudeste do brasil, filmes clássicos do sudeste brasileiro, que horas ela volta, que horas ela volta?, marte um, marte 1, (c)elas, celas, rio de janeiro, rj, são paulo, sp, espírito santo, es, minas gerais, mg, divinas divas,os normais, minha mae e uma peca, minha mãe é uma peça, paulo gustavo, regina casé, leandra leal, krenak, rio 40 graus, cidade de deus">
     <meta name="description" content="Aqui_no é uma curadoria de filmes brasileiros que os categoriza de acordo com a região do país em que foram produzidos, concebidos, realizados. Um projeto realizado por um grupo de estudantes da Coderhouse para conhecer, assistir, deleitar de filmes feitos aqui no norte, nordeste, centro-oeste, sudeste e sul!">
+    <link rel="stylesheet" href="sobreOProjeto.css">
     <link rel="shortcut icon" href="../imagens/mapa_br_index.png">
     <title>_sobre_o_projeto</title>
 </head>
 <body>
-    <nav>
-        <ul>
-            <li><a href="../index.html"><strong>Aqui_no</strong></a></li>
-            <li><a href="../paginas_norte/norte.html">_norte</a></li>
-            <li><a href="../paginas_nordeste/nordeste.html">_nordeste</a></li>
-            <li><a href="../paginas_centroOeste/centroOeste.html">_centro-oeste</a></li>
-            <li><a href="../paginas__sudeste/sudeste.html">_sudeste</a></li>
-            <li><a href="../paginas__sul/sul.html">_sul</a></li>
-            <li><a href="sobreOProjeto.html"><strong>_sobre_o_projeto</strong></a></li>
-        </ul> 
+    <nav id="menu--norte">
+        <ul class="--menu">
+            <li id="titulo"><a href="../index.html" class="a--menu">Aqui_no</a></li>
+            <li class="menu--li norte"><a href="../paginas_norte/norte.html" class="a--menu">_norte</a></li>
+            <li class="menu--li"><a href="../paginas_nordeste/nordeste.html" class="a--menu">_nordeste</a></li>
+            <li class="menu--li"><a href="../paginas_centroOeste/centroOeste.html" class="a--menu">_centro-oeste</a></li>
+            <li class="menu--li"><a href="../paginas__sudeste/sudeste.html" class="a--menu">_sudeste</a></li>
+            <li class="menu--li"><a href="../paginas__sul/sul.html" class="a--menu">_sul</a></li>
+            <li id="sobreProjeto"><a href="../pagina__sobre/sobreOProjeto.html" class="a--menu">_sobre_o_projeto</a></li>
+        </ul>
     </nav>
-    <p></p>
-    <header>
-        <a href="../index.html"><img src="../imagens/icone_voltar.png" alt="ícone para voltar">voltar</a>
-        <h1>Sobre o projeto</h1>
+    <header id="header--norte">
+        <div id="div--titulo">
+            <a href="../index.html" class="aVoltar"> <img src="../imagens/icone_voltar.png" class="imgLink">voltar</a>
+            <h1 class="head--titulo">Sobre o projeto</h1>
+        </div>
     </header>
-    <section>
-        <div>Aqui_no é uma curadoria de filmes brasileiros que os categoriza de acordo com a região do país em que foram produzidos, concebidos, realizados. Um projeto realizado por um grupo de estudantes da Coderhouse para conhecer, assistir, deleitar de filmes feitos aqui no norte, nordeste, centro-oeste, sudeste e sul!</div>
-        <p></p><hr><p></p>
-        <div>Autores: <a href="">Arthur Botelho</a>,<a href="">Hiago Silveira</a>,<a href="">Luana de Paula</a>,<a href="">Natália Soueid</a>,<a href="https://www.linkedin.com/in/rodrigo-m-a-c-leite/">Rodrigo Leite</a>.
-    </section>
-    <p></p>
-    <footer>
-        Aqui_no 2023®
+    <main class="main--projeto">
+        <div class="div--projetoTexto">
+            <p class="p--projetoTexto">Aqui_no é uma curadoria de filmes brasileiros que os categoriza de acordo com a região do país em que foram produzidos, concebidos, realizados. Um projeto realizado por um grupo de estudantes da Coderhouse para conhecer, assistir, deleitar de filmes feitos aqui no norte, nordeste, centro-oeste, sudeste e sul.</p>
+            <hr>
+            <p class="p--projetoAutores">Autores:</p>
+            <table class="table-autores">
+                <th></th>
+                <th></th>
+                <th></th>
+                <tr>
+                    <td class="td--nome">Artur Botelho</td>
+                    <td><a href="https://www.linkedin.com/in/arthur-botelho-8ab547206/" target="_blank"><img src="../imagens/linkedin.png" class="table-icone"></td>
+                    <td><a href="https://github.com/ArthurBBotelho" target="_blank"><img src="../imagens/github.png" class="table-icone"></td>
+                </tr>
+                <tr>
+                    <td class="td--nome">Hiago Silveira</td>
+                    <td><a href="https://www.linkedin.com/in/hiago-anthony-silveira-372405173/" target="_blank"><img src="../imagens/linkedin.png" class="table-icone"></td>
+                    <td><a href="https://github.com/HiagoSilveira" target="_blank"><img src="../imagens/github.png" class="table-icone">
+                </tr>
+                <tr>
+                    <td class="td--nome">Luana de Paula</td>
+                    <td><a href="https://www.linkedin.com/in/luandepaulalr/" target="_blank"><img src="../imagens/linkedin.png" class="table-icone"></td>
+                    <td><a href="https://github.com/luanadplr" target="_blank"><img src="../imagens/github.png" class="table-icone">
+                </tr>
+                <tr>
+                    <td class="td--nome">Natália Soueid</td>
+                    <td><a href="https://www.linkedin.com/in/nat%C3%A1lia-soueid-9b6528182/" target="_blank"><img src="../imagens/linkedin.png" class="table-icone"></td>
+                    <td><a href="https://github.com/nataliasoueid" target="_blank"><img src="../imagens/github.png" class="table-icone">
+                </tr>
+                <tr>
+                    <td class="td--nome">Rodrigo Leite</td>
+                    <td><a href="https://www.linkedin.com/in/rodrigo-m-a-c-leite/" target="_blank"><img src="../imagens/linkedin.png" class="table-icone"></td>
+                    <td><a href="https://github.com/romacleite" target="_blank"><img src="../imagens/github.png" class="table-icone">
+                </tr>
+            </table>
+        </div>
+    </main>
+    <footer id="footer--norte">
+        <p class="footer-creditos">Aqui_no 2023®</p>
     </footer>
 </body>
 </html>

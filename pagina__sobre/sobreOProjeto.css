@@ -73,7 +73,33 @@ transition: all 1s;}
 hr{width:80%;
 opacity:50%;}
     
+
+/* NEWSLETTER */
+
+#newsletter {
+    padding: 50px;
+}
+
+.buttonNews {
+    border: 2px solid black;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    color: rgb(119, 106, 106);
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    transition: all 1s;
+}
+
+.buttonNews:hover {
+    background-color: rgba(0, 0, 0, 0.223);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+
 /*  FOOTER   */
     
 #footer--norte{padding: 20px;
 background-color: #F2F2F2; color: #3d3d3d;}
+

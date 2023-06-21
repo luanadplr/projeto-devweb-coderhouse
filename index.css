@@ -79,7 +79,8 @@
 
 .buttonHeader:hover {
     background-color: rgba(0, 0, 0, 0.223);
-    padding-left: 50px; padding-right: 50px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /*MAPA*/
@@ -127,6 +128,30 @@
 .mapaHover:hover {
     opacity: 100%;
 }
+
+/*  NEWSLETTER   */
+
+#newsletter {
+    padding: 50px;
+}
+
+.buttonNews {
+    border: 2px solid black;
+    padding: 15px 30px 15px 30px;
+    text-decoration: none;
+    color: black;
+    display: inline-block;
+    margin-top: 15px;
+    font-size: 14px;
+    transition: all 1s;
+}
+
+.buttonNews:hover {
+    background-color: rgba(0, 0, 0, 0.223);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
 
 /*  FOOTER   */
 

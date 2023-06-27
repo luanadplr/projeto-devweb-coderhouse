@@ -17,5 +17,8 @@ fetch('http://www.omdbapi.com/?i=tt3896198&apikey=f2ea36dc')
 
 function enviarFilme() {
     let filmes = document.getElementById("nomeFilme").value;
+
+    let filmeEnviado = document.getElementById("filmeEnviado")
     alert("O filme: " + filmes + " foi enviado!")
+
 }

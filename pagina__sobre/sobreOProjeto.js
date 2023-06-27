@@ -9,10 +9,13 @@
 
 */
 
-fetch('http://www.omdbapi.com/?i=tt3896198&apikey=934ce73f')
-.then(response => response.json())
+fetch('http://www.omdbapi.com/?i=tt3896198&apikey=f2ea36dc')
+    .then(response => response.json())
+    .then(response => enviarFilme(response))
 
-let filmes = document.querySelector("input#nomeFilme")
-function enviarFilme(){
-    alert(filmes.value)
+
+
+function enviarFilme() {
+    let filmes = document.getElementById("nomeFilme").value;
+    alert("O filme: " + filmes + " foi enviado!")
 }

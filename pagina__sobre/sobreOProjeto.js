@@ -8,26 +8,36 @@ function buscarFilme() {
     fetch(url)
         .then(response => response.json())
         .then(data => {
-                let filmeBuscado = document.getElementById("filmeBuscado")
-                filmeBuscado.append(` ${data.Title} - Produzido em: ${data.Country}`)
-                console.log("Dados da API: ",data)
+            let filmeBuscado = document.getElementById("filmeBuscado")
+            filmeBuscado.innerHTML = `Título do Filme: ${data.Title} - Produzido em: ${data.Country}`
+            console.log("Dados da API: ",data)
         })
 
-        /*   
-        
-        AJUSTAR O ERROR E O REPETIDO
-
-        catch(e){
+    // NÃO ESTÁ FUNCIONANDO:
+        .catch(undefined => {
             let mensagemErro = document.querySelector("p#filmeBuscado")
             mensagemErro.innerHTML = `O Título inserido não está correto.`
-            console.log("Ocorreu um erro: ", error)
-        }
-
-        */
+            console.log("Ocorreu um erro: ",undefined)
+    })
 }
+
 function enviarFilme() {
     let filmes = document.getElementById("nomeFilme").value;
-    let filmeEnviado = document.getElementById("filmeEnviado")
-    alert(`O filme ${filmes} foi enviado com sucesso!`)
+    let url = `http://www.omdbapi.com/?t=${filmes}&apikey=f2ea36dc`
+    fetch(url)
+    .then(response => response.json())
+    .then(data=>{
+        if (data.Title!=undefined){
+            alert(`O filme ${filmes} foi enviado com sucesso!`)
+        } else {
+            alert(`O Título do Filme está incorreto! Por favor, reenviar.`)
+        }
+    })
+}
 
+function limparFilme(){
+    let form = document.querySelector("input#nomeFilme")
+    let nome = document.querySelector("p#filmeBuscado")
+    form.value = ""
+    nome.innerHTML = "Informações do Filme."
 }

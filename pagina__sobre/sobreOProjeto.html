@@ -91,9 +91,14 @@
     <section id="section">
         <p class="sentiuFalta">Sentiu falta de algum filme? Manda para gente.</p>
         <input type="text" id="nomeFilme" placeholder="Título do filme">
-        <div id="filmeEnviado"></div>
+
+        <button id="buscarFilme" onclick="buscarFilme()">Buscar</button>
+        <p id="filmeBuscado">
+            Titulo:
+        </p>
+
         <button id="enviarFilme" onclick="enviarFilme()">Enviar</button>
-        <p id="filmeEnviado"></p>
+
     </section>
 
     <!-- <section id="newsletter">

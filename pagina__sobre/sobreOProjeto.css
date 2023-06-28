@@ -84,35 +84,13 @@ color: white; font-size: 14px;}
 #nomeFilme{padding: 5px;
 margin-top: 10px;}
 
-#enviarFilme{padding: 5px;}
+#enviarFilme, #buscarFilme{padding: 5px;}
 
 #filmeEnviado{padding: 5px;
 margin-top: 10px;}
 
-/* NEWSLETTER 
+#filmeBuscado{margin-top: 10px; margin-bottom: 10px;}
 
-#newsletter {
-    padding: 50px;
-}
-
-.buttonNews {
-    border: 2px solid black;
-    padding: 15px 30px 15px 30px;
-    text-decoration: none;
-    color: rgb(119, 106, 106);
-    display: inline-block;
-    margin-top: 15px;
-    font-size: 14px;
-    transition: all 1s;
-}
-
-.buttonNews:hover {
-    background-color: rgba(0, 0, 0, 0.223);
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-*/
 
 /*  FOOTER   */
     

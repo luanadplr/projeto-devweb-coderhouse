@@ -2,7 +2,7 @@
 
 function buscarFilme() {
     let filmes = document.getElementById("nomeFilme").value;
-    let url = `http://www.omdbapi.com/?t=${filmes}&apikey=f2ea36dc`
+    let url = `https://www.omdbapi.com/?t=${filmes}&apikey=f2ea36dc`
     console.log(url)
 
     fetch(url)

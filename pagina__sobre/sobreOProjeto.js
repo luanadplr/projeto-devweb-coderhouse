@@ -13,12 +13,12 @@ function buscarFilme() {
             console.log("Dados da API: ",data)
         })
 
-    // NÃO ESTÁ FUNCIONANDO:
+    /* NÃO ESTÁ FUNCIONANDO:
         .catch(undefined => {
             let mensagemErro = document.querySelector("p#filmeBuscado")
             mensagemErro.innerHTML = `O Título inserido não está correto.`
             console.log("Ocorreu um erro: ",undefined)
-    })
+    }) */
 }
 
 function enviarFilme() {

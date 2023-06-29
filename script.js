@@ -43,3 +43,34 @@ function aleatorio(){
     var numero = Math.round(Math.random()*25)
     location.href=links[numero]
 }
+
+function verde(){
+    document.body.style.backgroundColor = '#24F27B'
+}
+
+function laranja(){
+    document.body.style.backgroundColor = 'rgb(255, 172, 84)'
+}
+
+function amarelo(){
+    document.body.style.backgroundColor = '#E5FE52'
+}
+
+function lilas(){
+    document.body.style.backgroundColor = '#FACAFF'
+}
+
+function azul(){
+    document.body.style.backgroundColor = '#8CDDFF'
+}
+
+function branco() {
+    document.body.style.backgroundColor = '#FFFFFF'
+}
+
+
+// imgNorte mapa mapaHover
+// imgNordeste mapa mapaHover
+// imgcentroOeste mapa mapaHover
+// imgSudeste mapa mapaHover
+// imgSul mapa mapaHover

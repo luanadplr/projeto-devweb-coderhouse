@@ -39,5 +39,5 @@ function limparFilme(){
     let form = document.querySelector("input#nomeFilme")
     let nome = document.querySelector("p#filmeBuscado")
     form.value = ""
-    nome.innerHTML = "Informações do Filme."
+    nome.innerHTML = ""
 }

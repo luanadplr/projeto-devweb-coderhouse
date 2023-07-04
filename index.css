@@ -79,8 +79,6 @@
 
 .buttonHeader:hover {
     background-color: rgba(0, 0, 0, 0.223);
-    padding-left: 50px;
-    padding-right: 50px;
 }
 
 /*MAPA*/
@@ -158,6 +156,7 @@
 
 #footer--norte {
     padding: 20px;
+    margin-top: 105px;
     background-color: #F2F2F2;
     color: #3d3d3d;
 }

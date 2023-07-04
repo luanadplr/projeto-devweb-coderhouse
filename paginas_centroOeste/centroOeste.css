@@ -9,7 +9,7 @@
     
     /*    MENU    */
     
-    #menu--centroOeste{background-color: #E5FE52;}
+    /*#menu--centroOeste{background-color: #E5FE52;}
     .--menu{display: flex;
     list-style: none;
     flex-flow: row wrap;
@@ -27,8 +27,52 @@
     .menu--li-centroOeste{font-weight: bold;}
     .a--menu:hover{
         text-decoration:underline;
+    }*/
+    
+    #body-centroOeste {
+        display: flex;
+        flex-direction: column;
     }
     
+    #menu-centroOeste {
+        background-color: #E5FE52;
+    }
+    
+    .menu {
+        display: flex;
+        justify-content: space-around;
+        list-style: none;
+        flex-flow: row wrap;
+        padding: 30px;
+    }
+    
+    #titulo {
+        margin-right: auto;
+        font-weight: bold;
+    }
+    
+    .sobre-projeto {
+        margin-left: auto;
+    }
+    
+    .menu-li {
+        margin: 0 20px 0 20px;
+    
+    }
+    
+    .a-menu {
+        color: black;
+        text-decoration: none;
+    }
+    
+    .menu-li:nth-child(4) {
+        font-weight: bold;
+    }
+    
+    .a-menu:hover {
+        text-decoration: underline;
+    }
+
     /*    HEADER    */
     
     #header--centroOeste{display:flex;

@@ -104,11 +104,8 @@ td {
     padding: 30px;
 }
 
-.tbl-tituloFilme {
-    font-weight: bold;
-}
-
 .tbl-link {
+    font-weight: bold;
     text-decoration: none;
     color: black;
 }

@@ -74,12 +74,14 @@
 /*-------------------------------------------ARTICLE-------------------------------------------*/
     
     #article-artigo{display: flex;
-    flex-flow: row wrap;}
+    flex-flow: row wrap;
+    justify-content: center;}
     
     .p-artigoTitulo{text-align: center;
     text-transform: uppercase; font-size: 15px;
     margin-top: 20px; margin-bottom: 30px;
-    letter-spacing: 2px;}
+    letter-spacing: 2px;
+    display: inline-block;}
     
     #div-artigo{display: flex;
     flex-flow: row wrap;

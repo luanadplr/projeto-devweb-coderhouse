@@ -59,6 +59,7 @@
     justify-content: space-between;
     padding: 50px;
     align-items: center;
+    height: 250px;
 }
 
 .a-voltar {
@@ -75,11 +76,7 @@
     text-decoration: underline;
 }
 
-#div-titulo {
-    margin: auto;
-}
-
-.div-img-sudeste {
+#div-titulo, #div-img-sudeste {
     margin: auto;
 }
 
@@ -104,11 +101,8 @@ td {
     padding: 30px;
 }
 
-.tbl-tituloFilme {
-    font-weight: bold;
-}
-
 .tbl-link {
+    font-weight: bold;
     text-decoration: none;
     color: black;
 }
